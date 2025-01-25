@@ -2,7 +2,7 @@
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-body-index{
+#body-index{
     background-image: -webkit-image-set("images/bgpic.avif");
     background-repeat: no-repeat;
     background-size: cover;
