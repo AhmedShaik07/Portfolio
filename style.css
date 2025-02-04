@@ -4,17 +4,33 @@
     color: wheat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
+    display: flex;
 }
 
 #body-index{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     background-image: -webkit-image-set("images/bgpic.avif");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#footer{
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 98.5%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
 #menu{
     display: flex;
-    gap: 10vh;
+    gap: 15vh;
     font-size: x-large;
     padding-left: 50%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,20 +38,26 @@
 }
 
 .edubody{    
-    display: block;
+    display: flex;
     text-align: center;
-    justify-content: center;
     background-image: -webkit-image-set("images/bgpic.avif");
     background-repeat: no-repeat;
     background-size: cover;
-  color: wheat;
+    color: wheat;
+    flex-direction: column;
+    align-items: center;
+  
 }
 
-fieldset{
+#fieldset{
+    width: 800px;
+    text-align: center;
     padding: 20px;
-    border: 2px solid #fff;
+    border: 2px solid wheat;
     font-size: large;
     transition: all 0.4s;
+    border-radius: 50%;
+
 }
 
 #h1h{
@@ -46,12 +68,17 @@ fieldset{
 }
 
 .projects{
-    /*background-color: rgb(236, 236, 55);*/
+    
     margin: 0;
     padding: 20px;
     color: wheat;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .body{
@@ -68,3 +95,6 @@ fieldset{
     font-style: italic;  
 }
 
+section{
+    margin: 15px;
+}
